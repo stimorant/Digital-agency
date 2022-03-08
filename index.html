@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="/css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- boton de wapp -->
+    <a href="https://api.whatsapp.com/send?phone=3148375023"
+           target="_blank"
+           class="whatsapp-andromeda__link">
+           <img src="/images/wapp-12.svg" alt="">
+        </a>
+     <!-- Navigacion-->
+     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="/images/logo.svg" alt="..." /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars ms-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="/templates/servicios.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/templates/team.html">Equipo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/templates/contact.html">Contáctanos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- background-->
+    <header class="masthead">
+        <div class="container">
+            <div class="masthead-subheading">¡Bienvenido a nuestra agencia!</div>
+            <div class="masthead-heading text-uppercase">Somos 100% arte</div>
+            <a class="btn btn-primary btn-xl text-uppercase" href="/templates/servicios.html">Ver servicios</a>
+        </div>
+    </header>
+    <!-- Presentacion -->
+    <section class="page-section bg-light">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Somos Designers</h2>
+                <h3 class="section-subheading text-muted">Digital Agency te conceta con una gran cantidad de diseñadores especializados <br> en diferentes áreas como (UI/UX, gráfico, textil, modas, ilustración) .</h3>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- Portfolio -->
+    <section class="page-section bg-light" id="portfolio">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Portfolio</h2>
+                <h3 class="section-subheading text-muted">Queremos compartir contigo algunos de nuestros mejores proyectos.
+                </h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 1-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="/images/Textil.png" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Textil</div>
+                            <div class="portfolio-caption-subheading text-muted">Diseño de estampados AMERICANINO</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 2-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="/images/Grafico.png" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Diseño gráfico</div>
+                            <div class="portfolio-caption-subheading text-muted">Photoshoot y edición de fotografia</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 3-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="/images/uiux.png" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">UI/UX</div>
+                            <div class="portfolio-caption-subheading text-muted">Diseño de sitio web para YAMAHA</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                    <!-- Portfolio item 4-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="/images/pattern.png" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Ilustración</div>
+                            <div class="portfolio-caption-subheading text-muted">Diseño de pattern para textil</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                    <!-- Portfolio item 5-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="/images/portafolio-06.png" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">UI/UX</div>
+                            <div class="portfolio-caption-subheading text-muted">Diseño de sitio web para CONSAPIENS</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <!-- Portfolio item 6-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="/images/Branding.png" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Branding</div>
+                            <div class="portfolio-caption-subheading text-muted">Creación de marca IANA</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-lg-start">Copyright &copy; Stiven 2022</div>
+                <div class="col-lg-4 my-3 my-lg-0">
+                    <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/quetrazos/"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="https://www.behance.net/stimorant"><i class="fab fa-behance"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/estiven-morant-jim%C3%A9nez-9b91a8209/"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                    <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Portfolio Modales-->
+    <!-- Portfolio item 1 modal -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="/images/close-icon.svg" alt="Close modal" />
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Detalles del proyecto-->
+                                <h2 class="text-uppercase">AMERICANINO</h2>
+                                <p class="item-intro text-muted">Colección Happy Camper.</p>
+                                <img class="img-fluid d-block mx-auto" src="/images/Textil.png" alt="..." />
+                                <p>En este royecto nos encargamos crear una colección de estampados para prendas inspirado y
+                                    dedicado a los amantes del camping</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Cliente:</strong>
+                                        Americanino
+                                    </li>
+                                    <li>
+                                        <strong>Categoria:</strong>
+                                        Diseño textil
+                                    </li>
+                                </ul>
+                                <a class="btn btn-primary btn-xl text-uppercase"
+                                    href="https://www.behance.net/gallery/136648637/AMERICANINO-CONCEPTO-TEMPORADA"
+                                    target="__blank">Ver proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 2 modal -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="/images/close-icon.svg" alt="Close modal" />
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Detalles del proyecto-->
+                                <h2 class="text-uppercase">Lente Gráfico</h2>
+                                <p class="item-intro text-muted">Sesión de fotografía artistica.</p>
+                                <img class="img-fluid d-block mx-auto" src="/images/Grafico.png" alt="..." />
+                                <p>Para este proyecto el cliente nos pide una sesión de fotografía artistica en gama baja
+                                    con colores neon y un modelo masculino</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Cliente:</strong>
+                                        Lente Gráfico
+                                    </li>
+                                    <li>
+                                        <strong>Categoria:</strong>
+                                        Diseño Gráfico
+                                    </li>
+                                </ul>
+                                <a class="btn btn-primary btn-xl text-uppercase"
+                                    href="https://www.behance.net/gallery/55015385/FOTOGRAFIA-ARTISTICA"
+                                    target="__blank">Ver proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 3 modal -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="/images/close-icon.svg" alt="Close modal" />
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Detalles del proyecto -->
+                                <h2 class="text-uppercase">Incolmotos</h2>
+                                <p class="item-intro text-muted">Diseño de página web.</p>
+                                <img class="img-fluid d-block mx-auto" src="/images/uiux.png" alt="..." />
+                                <p>Para este proyecto el cliente nos pide diseñar una página web para promocionar el
+                                    lanzamiento de sus nuevos productos</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Cliente:</strong>
+                                        Incolmotos Yamaha
+                                    </li>
+                                    <li>
+                                        <strong>Categoria:</strong>
+                                        UI/UX
+                                    </li>
+                                </ul>
+                                <a class="btn btn-primary btn-xl text-uppercase"
+                                    href="https://www.behance.net/gallery/127789181/Prueba-diseno-web-incolmotos-yahama"
+                                    target="__blank">Ver proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 4 modal -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="/images/close-icon.svg" alt="Close modal" />
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Detalles del proyecto-->
+                                <h2 class="text-uppercase">Jaguar</h2>
+                                <p class="item-intro text-muted">Diseño de pattern.</p>
+                                <img class="img-fluid d-block mx-auto" src="/images/pattern.png" alt="..." />
+                                <p>Nuestro cliente nos pide un pattern para impresión textil a gran formato y adicional
+                                    poderlo estampar en diferentes productos y superficies</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Cliente:</strong>
+                                        Kiribat
+                                    </li>
+                                    <li>
+                                        <strong>Categoria:</strong>
+                                        Ilustración
+                                    </li>
+                                </ul>
+                                <a class="btn btn-primary btn-xl text-uppercase"
+                                    href="https://www.behance.net/gallery/91373761/PATTERN-JAGUAR" target="__blank">Ver
+                                    proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 5 modal -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="/images/close-icon.svg" alt="Close modal" />
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Detalles del proyecto-->
+                                <h2 class="text-uppercase">Landing page</h2>
+                                <p class="item-intro text-muted">Diseño de sitio web.</p>
+                                <img class="img-fluid d-block mx-auto" src="/images/portafolio-06.png" alt="..." />
+                                <p>Para este proyecto el cliente nos pide el diseño de un sitio web informativo donde pueda
+                                    mostrar todos sus servicios y lo puedan contactar desde la página</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Cliente:</strong>
+                                        Consapiens
+                                    </li>
+                                    <li>
+                                        <strong>Categoria:</strong>
+                                        UI/UX
+                                    </li>
+                                </ul>
+                                <a class="btn btn-primary btn-xl text-uppercase"
+                                    href="https://www.behance.net/gallery/134019521/Consapiens" target="__blank">Ver
+                                    proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 6 modal -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="/images/close-icon.svg" alt="Close modal" />
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Detalles del proyecto-->
+                                <h2 class="text-uppercase">Branding Iana</h2>
+                                <p class="item-intro text-muted">Diseño de imagen corporativa.</p>
+                                <img class="img-fluid d-block mx-auto" src="/images/Branding.png" alt="..." />
+                                <p>En este proyecto nos encargamos de crear toda la identidad corporativa de spa Iana donde
+                                    nos piden un diseño elegante y llamativo</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Cliente:</strong>
+                                        Iana spa nails
+                                    </li>
+                                    <li>
+                                        <strong>Categoria:</strong>
+                                        Diseño gráfico
+                                    </li>
+                                </ul>
+                                <a class="btn btn-primary btn-xl text-uppercase"
+                                    href="https://www.behance.net/gallery/120387231/iana-Beauty-Spa" target="__blank">Ver
+                                    proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="/js/default.js"></script>
+    </body>
+    
+    </html>
